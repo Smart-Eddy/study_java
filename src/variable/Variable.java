@@ -20,7 +20,7 @@ public class Variable {
 		i = 100; 
 		// 변수 선언 및 초기화
 		int j = 200; 
-		
+		  
 		// 변수명을 통해 값을 참조할 수 있다.
 		System.out.println("i + j = " + (i + j));
 		
