@@ -30,7 +30,6 @@ public class DataType {
 	 */
 	public static void main(String[] args) {
 		// 기본 자료형(Primitive Type)
-		
 		System.out.println("==========정수형==========");
 		// byte(1byte)
 		byte by = 1;
