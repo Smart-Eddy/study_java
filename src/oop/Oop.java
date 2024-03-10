@@ -38,6 +38,29 @@ public class Oop {
 		ramborgini.stop();
 		ramborgini.carInfo();
 		
+		// 객체 생성과 참조
+		// granduer와 ramborgini 객체(인스턴스)는 같은 클래스인 Car 자료형이다.
+		// 객체가 생성되었을 때 힙메모리에 생성되고 이를 참조변수가 참조하여 객체에 접근할 수 있다.
+		// 생성된 객체(인스턴스)는 각 각의 메모리 주소를 가지고 있고 이 둘은 서로 다른 객체임을 알 수 있다.
+		System.out.println("====Object Memory Addrees====");
+		System.out.println("car_granduer : " + grandeur);
+		System.out.println("car_ramborgini : " + ramborgini);
+		
+		// 객체 비교시 == 비교연산자는 두 객체의 참조(주소)를 비교한다.
+		System.out.println("== : " + (grandeur == ramborgini)); // false
+		// equals() 메서드는 두 객체의 내용을 비교한다.
+		System.out.println("equals() : " + grandeur.equals(ramborgini)); // false
+		// instanceof() 메서드는 두 객체의 타입(자료형)을 비교한다.
+		System.out.println("instanceof() : " + (grandeur instanceof Car)); // true
+		System.out.println("instanceof() : " + (ramborgini instanceof Car)); // true
+		
+		// 참조변수에 null이 저장되면 참조변수와 객체의 참조가 끊기고 더 이상 객체를 이용할 수 없게된다.
+		// null이 저장되어 참조가 끊기게 되면 GC에 의해서 메모리(힙)에서 제거되게 된다.
+		grandeur.carInfo();
+		grandeur = null;
+		//grandeur.carInfo(); NullPointerException 발생 
+		
+		
 	}
 
 }
