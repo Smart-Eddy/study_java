@@ -3,18 +3,18 @@ package constructor;
 
 public class Construtor {
 	/**
-	 * @ »ý¼ºÀÚ 
-	 * 1. default »ý¼ºÀÚ°¡ ¾øÀ» ½Ã ÄÄÆÄÀÏ·¯°¡ default »ý¼ºÀÚ¸¦ ÀÚµ¿À¸·Î »ý¼ºÇØÁØ´Ù.
-	 * 2. ÇÏÁö¸¸ »ç¿ëÀÚÁ¤ÀÇ »ý¼ºÀÚ(»ý¼ºÀÚ ¿À¹ö·Îµù)ÀÌ ÀÖ´Ù¸é default »ý¼ºÀÚ¸¦ »ý¼ºÇØÁÖÁö ¾Ê±â ¶§¹®¿¡ ¸í½Ã ÇØÁÖ¾î¾ß ÇÑ´Ù.
+	 * @ ìƒì„±ìž 
+	 * 1. default ìƒì„±ìžê°€ ì—†ì„ ì‹œ ì»´íŒŒì¼ëŸ¬ê°€ default ìƒì„±ìžë¥¼ ìžë™ìœ¼ë¡œ ìƒì„±í•´ì¤€ë‹¤.
+	 * 2. í•˜ì§€ë§Œ ì‚¬ìš©ìžì •ì˜ ìƒì„±ìž(ìƒì„±ìž ì˜¤ë²„ë¡œë”©)ì´ ìžˆë‹¤ë©´ default ìƒì„±ìžë¥¼ ìƒì„±í•´ì£¼ì§€ ì•Šê¸° ë•Œë¬¸ì— ëª…ì‹œ í•´ì£¼ì–´ì•¼ í•œë‹¤.
 	 * @ this
-	 * 1. ÀÚ¹Ù¿¡¼­ °´Ã¼ ÀÚ±â ÀÚ½ÅÀ» °¡¸£Å°´Â Å°¿öµåÀÌ´Ù.
-	 * 2. °´Ã¼ ³»ºÎ¿¡¼­ »ý¼ºÀÚ³ª setter µîÀ» ÅëÇØ °ªÀ» ¼ÂÆÃÇÒ ¶§ thisÅ°¿öµå¸¦ ÅëÇØ¼­ Àü¿ªº¯¼ö(¸â¹öº¯¼ö)¿Í
-	 *    ¸Þ¼­µåÀÇ ÆÄ¶ó¹ÌÅÍ·Î µé¾î°¡°ÔµÇ´Â Áö¿ªº¯¼ö¸¦ ½±°Ô ±¸º°ÇÒ ¼ö ÀÖ´Ù. 
+	 * 1. ìžë°”ì—ì„œ ê°ì²´ ìžê¸° ìžì‹ ì„ ê°€ë¥´í‚¤ëŠ” í‚¤ì›Œë“œì´ë‹¤.
+	 * 2. ê°ì²´ ë‚´ë¶€ì—ì„œ ìƒì„±ìžë‚˜ setter ë“±ì„ í†µí•´ ê°’ì„ ì…‹íŒ…í•  ë•Œ thisí‚¤ì›Œë“œë¥¼ í†µí•´ì„œ ì „ì—­ë³€ìˆ˜(ë©¤ë²„ë³€ìˆ˜)ì™€
+	 *    ë©”ì„œë“œì˜ íŒŒë¼ë¯¸í„°ë¡œ ë“¤ì–´ê°€ê²Œë˜ëŠ” ì§€ì—­ë³€ìˆ˜ë¥¼ ì‰½ê²Œ êµ¬ë³„í•  ìˆ˜ ìžˆë‹¤. 
 	 */
 	
 	public static void main(String[] args) {
 		
-		// °´Ã¼ »ý¼º½Ã »ý¼ºÀÚ È£Ãâ()
+		// ê°ì²´ ìƒì„±ì‹œ ìƒì„±ìž í˜¸ì¶œ()
 		ObjectClass obj1 = new ObjectClass();
 		ObjectClass obj2 = new ObjectClass(100);
 		int[] iArr = {10, 20, 30};

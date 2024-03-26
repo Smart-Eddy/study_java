@@ -4,43 +4,43 @@ package format;
 public class Format {
 	
 	/**
-	 * @ ¼­½Ä¹®ÀÚ(Format specifier)
-	 * 1. String.format() / System.out.printf() ¸Ş¼­µå¿¡¼­ »ç¿ëÇÒ ¼ö ÀÖ´Ù.
-	 * 2. ¼­½Ä¹®ÀÚ´Â ¹®ÀÚ¿­ ³»¿¡¼­ Æ¯Á¤ÇÑ Çü½ÄÀ¸·Î µ¥ÀÌÅÍ¸¦ ÀÔ Ãâ·ÂÇÒ ¶§ »ç¿ëÇÑ´Ù.
-	 * 3. ÀÏ¹İÀûÀ¸·Î % ±âÈ£¿Í ÇÔ²² »ç¿ëµÇ°í Ãâ·ÂÇÒ µ¥ÀÌÅÍÀÇ À¯Çü¿¡ µû¶ó »ç¿ëÇÒ ¼­½Ä¹®ÀÚ°¡ Á¤ÇØÁ® ÀÖ´Ù.
+	 * @ ì„œì‹ë¬¸ì(Format specifier)
+	 * 1. String.format() / System.out.printf() ë©”ì„œë“œì—ì„œ ì‚¬ìš©í•  ìˆ˜ ìˆë‹¤.
+	 * 2. ì„œì‹ë¬¸ìëŠ” ë¬¸ìì—´ ë‚´ì—ì„œ íŠ¹ì •í•œ í˜•ì‹ìœ¼ë¡œ ë°ì´í„°ë¥¼ ì… ì¶œë ¥í•  ë•Œ ì‚¬ìš©í•œë‹¤.
+	 * 3. ì¼ë°˜ì ìœ¼ë¡œ % ê¸°í˜¸ì™€ í•¨ê»˜ ì‚¬ìš©ë˜ê³  ì¶œë ¥í•  ë°ì´í„°ì˜ ìœ í˜•ì— ë”°ë¼ ì‚¬ìš©í•  ì„œì‹ë¬¸ìê°€ ì •í•´ì ¸ ìˆë‹¤.
 	 *
 	 */
 	public static void main(String[] args) {
-		// Á¤¼ö
+		// ì •ìˆ˜
 		int formatNum = 30;
-		// %d : 10Áø¼ö
-		System.out.println("¿À´ÃÀÇ ±â¿ÂÀº 10µµ ÀÔ´Ï´Ù.");
-		System.out.printf("¿À´ÃÀÇ ±â¿ÂÀº %d(10Áø¼ö)µµ ÀÔ´Ï´Ù.\n", formatNum);
-		// %o : 8Áø¼ö
-		System.out.printf("¿À´ÃÀÇ ±â¿ÂÀº %o(8Áø¼ö)µµ ÀÔ´Ï´Ù.\n", formatNum);
-		// %x : 16Áø¼ö
-		System.out.printf("¿À´ÃÀÇ ±â¿ÂÀº %x(16Áø¼ö)µµ ÀÔ´Ï´Ù.\n", formatNum);
+		// %d : 10ì§„ìˆ˜
+		System.out.println("ì˜¤ëŠ˜ì˜ ê¸°ì˜¨ì€ 10ë„ ì…ë‹ˆë‹¤.");
+		System.out.printf("ì˜¤ëŠ˜ì˜ ê¸°ì˜¨ì€ %d(10ì§„ìˆ˜)ë„ ì…ë‹ˆë‹¤.\n", formatNum);
+		// %o : 8ì§„ìˆ˜
+		System.out.printf("ì˜¤ëŠ˜ì˜ ê¸°ì˜¨ì€ %o(8ì§„ìˆ˜)ë„ ì…ë‹ˆë‹¤.\n", formatNum);
+		// %x : 16ì§„ìˆ˜
+		System.out.printf("ì˜¤ëŠ˜ì˜ ê¸°ì˜¨ì€ %x(16ì§„ìˆ˜)ë„ ì…ë‹ˆë‹¤.\n", formatNum);
 		
-		// ¹®ÀÚ : %c
-		System.out.printf("¼Ò¹®ÀÚ \'%c\'ÀÇ ´ë¹®ÀÚ´Â \'%c\'ÀÔ´Ï´Ù\n", 'a', 'A');
-		// ¹®ÀÚ¿­ : %s
-		System.out.printf("\'%s\'¸¦ ´ë¹®ÀÚ·Î ¹Ù²Ù¸é \'%s\'ÀÔ´Ï´Ù.\n", "java", "JAVA");
+		// ë¬¸ì : %c
+		System.out.printf("ì†Œë¬¸ì \'%c\'ì˜ ëŒ€ë¬¸ìëŠ” \'%c\'ì…ë‹ˆë‹¤\n", 'a', 'A');
+		// ë¬¸ìì—´ : %s
+		System.out.printf("\'%s\'ë¥¼ ëŒ€ë¬¸ìë¡œ ë°”ê¾¸ë©´ \'%s\'ì…ë‹ˆë‹¤.\n", "java", "JAVA");
 		
-		// ½Ç¼ö
+		// ì‹¤ìˆ˜
 		System.out.printf("d = %f\n", 1.14);
 		
-		// ¼­½Ä¹®ÀÚ Á¤·ÄÇÏ±â
-		System.out.println("==¿ŞÂÊ Á¤·Ä==");
+		// ì„œì‹ë¬¸ì ì •ë ¬í•˜ê¸°
+		System.out.println("==ì™¼ìª½ ì •ë ¬==");
 		System.out.printf("%d\n", 123);
 		System.out.printf("%d\n", 1234);
 		System.out.printf("%d\n", 12345);
-		System.out.println("==¿À¸¥ÂÊ Á¤·Ä==");
+		System.out.println("==ì˜¤ë¥¸ìª½ ì •ë ¬==");
 		System.out.printf("%5d\n", 123);
 		System.out.printf("%5d\n", 1234);
 		System.out.printf("%5d\n", 12345);
 		
-		// ¼­½Ä¹®ÀÚ ¼Ò¼öÁ¡ Á¦ÇÑÇÏ±â
-		System.out.println("==¼Ò¼öÁ¡ Á¦ÇÑÇÏ±â==");
+		// ì„œì‹ë¬¸ì ì†Œìˆ˜ì  ì œí•œí•˜ê¸°
+		System.out.println("==ì†Œìˆ˜ì  ì œí•œí•˜ê¸°==");
 		System.out.printf("%f\n", 1.23);
 		System.out.printf("%.0f\n", 1.23);
 		System.out.printf("%.1f\n", 1.23);

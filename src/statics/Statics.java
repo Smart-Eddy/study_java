@@ -4,8 +4,8 @@ public class Statics {
 
 	public static void main(String[] args) {
 		
-		// lee, kim ÀÌ¶ó´Â ¼­·Î ´Ù¸¥ °´Ã¼°¡ »ı¼ºµÇ¾úÁö¸¸ StaticBank Å¬·¡½º¿¡ amount´Â static º¯¼öÀÌ±â ¶§¹®¿¡
-		// °´Ã¼³¢¸® amount º¯¼öÀÇ µ¥ÀÌÅÍ¸¦ °øÀ¯ÇÏ°Ô µÈ´Ù.
+		// lee, kim ì´ë¼ëŠ” ì„œë¡œ ë‹¤ë¥¸ ê°ì²´ê°€ ìƒì„±ë˜ì—ˆì§€ë§Œ StaticBank í´ë˜ìŠ¤ì— amountëŠ” static ë³€ìˆ˜ì´ê¸° ë•Œë¬¸ì—
+		// ê°ì²´ë¼ë¦¬ amount ë³€ìˆ˜ì˜ ë°ì´í„°ë¥¼ ê³µìœ í•˜ê²Œ ëœë‹¤.
 		
 		StaticBank lee = new StaticBank("lee");
 		lee.saveMoney(100); 
@@ -14,7 +14,7 @@ public class Statics {
 		kim.saveMoney(300);
 		kim.getBankInfo();
 		
-		// Class.[º¯¼ö¸í]À¸·Î staticº¯¼ö¿¡ Á¢±Ù °¡´ÉÇÏ´Ù.
+		// Class.[ë³€ìˆ˜ëª…]ìœ¼ë¡œ staticë³€ìˆ˜ì— ì ‘ê·¼ ê°€ëŠ¥í•˜ë‹¤.
 		StaticBank.amount += 500;
 		kim.getBankInfo();
 		kim.spendMoney(900);

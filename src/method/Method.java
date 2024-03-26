@@ -13,6 +13,6 @@ public class Method {
 		child.getInfo();
 		child.getInfo("method", "overroding");
 		
-		//child.mySecret(); Á¢±ÙÁ¦¾îÀÚ privateÀÌ±â ¶§¹®¿¡ ¿ÜºÎ¿¡¼­ Á¢±Ù ºÒ°¡´É
+		//child.mySecret(); ì ‘ê·¼ì œì–´ì privateì´ê¸° ë•Œë¬¸ì— ì™¸ë¶€ì—ì„œ ì ‘ê·¼ ë¶ˆê°€ëŠ¥
 	}
 }

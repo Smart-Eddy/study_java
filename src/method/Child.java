@@ -3,13 +3,13 @@ package method;
 
 public class Child {
 	/**
-	 * @ ¸Þ¼­µå(Method)
-	 * 1. ÀýÂ÷ÁöÇâ¾ð¾î¿¡¼­ »ç¿ëÇÏ´Â ÇÔ¼ö(Function)À» °´Ã¼ÁöÇâ¾ð¾î¿¡¼­´Â ¸Þ¼­µå(Method)¶ó°í ºÎ¸¥´Ù.
-	 * 2. ¸Þ¼­µåµµ º¯¼ö¿Í °°ÀÌ ¼±¾ð ¹× Á¤ÀÇ ÈÄ ÇÊ¿äÇÑ °÷¿¡¼­ ¸Þ¼­µå¸¦ È£Ãâ()ÇÏ¿© »ç¿ëÇÑ´Ù.
-	 * 3. ¸Þ¼­µåÀÇ ¼±¾ð ¹× Á¤ÀÇ Çü½ÄÀº [Á¢±ÙÁ¦¾îÀÚ] [¹ÝÈ¯Å¸ÀÔ] [¸Þ¼­µå¸í : ÁÖ¼Ò] [¸Å°³º¯¼ö] { ·ÎÁ÷ } Çü½ÄÀ¸·Î ÀÛ¼ºÇÑ´Ù.
-	 * 4. ÇÁ·Î±×·¥ ³»¿¡¼­ °°Àº ÀÛ¾÷À» ¿©·¯¹ø ¼öÇàÇØ¾ß ÇÑ´Ù¸é, ±× ÀÛ¾÷À» ¼öÇàÇÏ´Â ¸Þ¼­µå¸¦ ÀÛ¼ºÇÏ°í ÇÊ¿äÇÒ ¶§¸¶´Ù
-	 *    ÇØ´ç ÇÔ¼ö¸¦ È£ÃâÇÏ¿© ÄÚµå¸¦ Àç»ç¿ëÇÏ´Â °ÍÀÌ À¯Áöº¸¼ö¿¡µµ ÁÁ´Ù.
-	 * 5. ÀÚ¹Ù¿¡ Á¸ÀçÇÏ´Â Á¢±ÙÁ¦¾îÀÚ(public, private, protected)¿¡¿¡ µû¶ó È£Ãâ ¹üÀ§°¡ º¯°æµÉ ¼ö ÀÖ´Ù.
+	 * @ ë©”ì„œë“œ(Method)
+	 * 1. ì ˆì°¨ì§€í–¥ì–¸ì–´ì—ì„œ ì‚¬ìš©í•˜ëŠ” í•¨ìˆ˜(Function)ì„ ê°ì²´ì§€í–¥ì–¸ì–´ì—ì„œëŠ” ë©”ì„œë“œ(Method)ë¼ê³  ë¶€ë¥¸ë‹¤.
+	 * 2. ë©”ì„œë“œë„ ë³€ìˆ˜ì™€ ê°™ì´ ì„ ì–¸ ë° ì •ì˜ í›„ í•„ìš”í•œ ê³³ì—ì„œ ë©”ì„œë“œë¥¼ í˜¸ì¶œ()í•˜ì—¬ ì‚¬ìš©í•œë‹¤.
+	 * 3. ë©”ì„œë“œì˜ ì„ ì–¸ ë° ì •ì˜ í˜•ì‹ì€ [ì ‘ê·¼ì œì–´ìž] [ë°˜í™˜íƒ€ìž…] [ë©”ì„œë“œëª… : ì£¼ì†Œ] [ë§¤ê°œë³€ìˆ˜] { ë¡œì§ } í˜•ì‹ìœ¼ë¡œ ìž‘ì„±í•œë‹¤.
+	 * 4. í”„ë¡œê·¸ëž¨ ë‚´ì—ì„œ ê°™ì€ ìž‘ì—…ì„ ì—¬ëŸ¬ë²ˆ ìˆ˜í–‰í•´ì•¼ í•œë‹¤ë©´, ê·¸ ìž‘ì—…ì„ ìˆ˜í–‰í•˜ëŠ” ë©”ì„œë“œë¥¼ ìž‘ì„±í•˜ê³  í•„ìš”í•  ë•Œë§ˆë‹¤
+	 *    í•´ë‹¹ í•¨ìˆ˜ë¥¼ í˜¸ì¶œí•˜ì—¬ ì½”ë“œë¥¼ ìž¬ì‚¬ìš©í•˜ëŠ” ê²ƒì´ ìœ ì§€ë³´ìˆ˜ì—ë„ ì¢‹ë‹¤.
+	 * 5. ìžë°”ì— ì¡´ìž¬í•˜ëŠ” ì ‘ê·¼ì œì–´ìž(public, private, protected)ì—ì— ë”°ë¼ í˜¸ì¶œ ë²”ìœ„ê°€ ë³€ê²½ë  ìˆ˜ ìžˆë‹¤.
 	 */
 	
 	public String name;
@@ -26,13 +26,13 @@ public class Child {
 		System.out.println("name : " + this.name);
 		System.out.println("gender : " + this.gender);
 		System.out.println("age : " + this.age);
-		//mySecret(); Á¢±ÙÁ¦¾îÀÚ private Å¬·¡½º ³»ºÎ¿¡¼­´Â Á¢±Ù °¡´É
+		//mySecret(); ì ‘ê·¼ì œì–´ìž private í´ëž˜ìŠ¤ ë‚´ë¶€ì—ì„œëŠ” ì ‘ê·¼ ê°€ëŠ¥
 	}
 	
-	// ¸Þ¼­µå ¿À¹ö·Îµù(Method Overloading)
-	// ¸¸¾à °°Àº ÀÛ¾÷À» ¼öÇàÇØ¾ß ÇÏ´Â ¸Þ¼­µå¿¡¼­ ¸Å°³º¯¼öÀÇ °³¼ö È¤Àº Å¸ÀÔÀÌ ´Ù¸¥ ¸Þ¼­µå°¡ ÇÊ¿äÇÏ´Ù¸é 
-	// ¿À¹ö·ÎµùÀ» ÀÌ¿ëÇØ¼­ ¸Þ¼­µå¸íÀ» ÇÏ³ª·Î ÅëÀÏÇØ¼­ À¯Áöº¸¼ö¼ºÀ» ³ôÀÏ ¼ö ÀÖ´Ù.
-	// ´ëÇ¥ÀûÀ¸·Î System.out.println() ¶ÇÇÑ ¿À¹ö·ÎµùÀ» ÅëÇØ ÇÏ³ªÀÇ ¸Þ¼­µå¸íÀ¸·Î ¿©·¯ ÀÚ·áÇüÀ» Ã³¸®ÇÒ ¼ö ÀÖ´Ù.
+	// ë©”ì„œë“œ ì˜¤ë²„ë¡œë”©(Method Overloading)
+	// ë§Œì•½ ê°™ì€ ìž‘ì—…ì„ ìˆ˜í–‰í•´ì•¼ í•˜ëŠ” ë©”ì„œë“œì—ì„œ ë§¤ê°œë³€ìˆ˜ì˜ ê°œìˆ˜ í˜¹ì€ íƒ€ìž…ì´ ë‹¤ë¥¸ ë©”ì„œë“œê°€ í•„ìš”í•˜ë‹¤ë©´ 
+	// ì˜¤ë²„ë¡œë”©ì„ ì´ìš©í•´ì„œ ë©”ì„œë“œëª…ì„ í•˜ë‚˜ë¡œ í†µì¼í•´ì„œ ìœ ì§€ë³´ìˆ˜ì„±ì„ ë†’ì¼ ìˆ˜ ìžˆë‹¤.
+	// ëŒ€í‘œì ìœ¼ë¡œ System.out.println() ë˜í•œ ì˜¤ë²„ë¡œë”©ì„ í†µí•´ í•˜ë‚˜ì˜ ë©”ì„œë“œëª…ìœ¼ë¡œ ì—¬ëŸ¬ ìžë£Œí˜•ì„ ì²˜ë¦¬í•  ìˆ˜ ìžˆë‹¤.
 	public void getInfo(String param1, String pram2r) {
 		System.out.println("====getInfo("+param1 + ", " + pram2r+")====");
 	}

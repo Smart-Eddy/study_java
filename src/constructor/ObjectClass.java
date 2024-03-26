@@ -6,21 +6,21 @@ public class ObjectClass {
 	String str;
 	int iArr[];
 
-	// default »ı¼ºÀÚ°¡ Á¸ÀçÇÏÁö ¾ÊÀ¸¸é ÄÄÆÄÀÏ ½ÃÁ¡¿¡ ÀÚµ¿À¸·Î default »ı¼ºÀÚ°¡ »ı¼ºµÈ´Ù.
+	// default ìƒì„±ìê°€ ì¡´ì¬í•˜ì§€ ì•Šìœ¼ë©´ ì»´íŒŒì¼ ì‹œì ì— ìë™ìœ¼ë¡œ default ìƒì„±ìê°€ ìƒì„±ëœë‹¤.
 	
 	public ObjectClass() {
 		System.out.println("==defalut ObjectClass()==");
 	}
 	 
 
-	// »ç¿ëÀÚÁ¤ÀÇ »ı¼ºÀÚ(»ı¼ºÀÚ ¿À¹ö·Îµù)
+	// ì‚¬ìš©ìì •ì˜ ìƒì„±ì(ìƒì„±ì ì˜¤ë²„ë¡œë”©)
 	public ObjectClass(int i) {
 		System.out.println("==Overroding1 ObjectClass()==");
 		this.i = i;
 		System.out.println("i = " + i);
 	}
 
-	// »ç¿ëÀÚÁ¤ÀÇ »ı¼ºÀÚ(»ı¼ºÀÚ ¿À¹ö·Îµù)
+	// ì‚¬ìš©ìì •ì˜ ìƒì„±ì(ìƒì„±ì ì˜¤ë²„ë¡œë”©)
 	public ObjectClass(String str, int[] iArr) {
 		System.out.println("==Overroding2 ObjectClass()==");
 		this.str = str;

@@ -4,15 +4,15 @@ package helloworld;
 public class Helloworld {
 	
 	/**
-	 * @ ÀÚ¹ÙÇÁ·Î±×·¥ÀÇ ½ÇÇà±¸Á¶
-	 * 1. ¼Ò½ºÄÚµå ÀÛ¼º(.java)
-	 * 2. ÄÄÆÄÀÏ(Compile) -javac.exe
-	 * 3. bytecodeÆÄÀÏ »ı¼º(.class)
-	 * 4. JVM(Java Virtual Machine) ±¸µ¿ -java.exe
-	 * 5. LINK ÀÛ¾÷ (¸Ş¸ğ¸® ·Îµù/ ½ÇÇàÁØºñ/ ½ÇÇà°áÁ¤/ ÃÊ±âÈ­ µî) -RUN
+	 * @ ìë°”í”„ë¡œê·¸ë¨ì˜ ì‹¤í–‰êµ¬ì¡°
+	 * 1. ì†ŒìŠ¤ì½”ë“œ ì‘ì„±(.java)
+	 * 2. ì»´íŒŒì¼(Compile) -javac.exe
+	 * 3. bytecodeíŒŒì¼ ìƒì„±(.class)
+	 * 4. JVM(Java Virtual Machine) êµ¬ë™ -java.exe
+	 * 5. LINK ì‘ì—… (ë©”ëª¨ë¦¬ ë¡œë”©/ ì‹¤í–‰ì¤€ë¹„/ ì‹¤í–‰ê²°ì •/ ì´ˆê¸°í™” ë“±) -RUN
 	 */
 	public static void main(String[] args) {
-		// main Method´Â ÇÁ·Î±×·¥ÀÌ ½ÃÀÛµÉ ¶§ °¡Àå ¸ÕÀú ½ÇÇàµÈ´Ù.
+		// main MethodëŠ” í”„ë¡œê·¸ë¨ì´ ì‹œì‘ë  ë•Œ ê°€ì¥ ë¨¼ì € ì‹¤í–‰ëœë‹¤.
 		System.out.println("Hello Java World!!");
 	}
 }

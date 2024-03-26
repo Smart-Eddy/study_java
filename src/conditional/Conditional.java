@@ -5,55 +5,55 @@ import java.util.Scanner;
 public class Conditional {
 	
 	/**
-	 * @ Á¶°Ç¹®(Conditional)
-	 * 1. Á¶°Ç¹®Àº Á¶°ÇÀÇ true/false °á°ú¿¡ µû¶ó ÇÁ·Î±×·¥ÀÇ Èå¸§À» Á¦¾îÇÏ´Â ÄÚµå¸¦ ¸»ÇÑ´Ù.
-	 * 2. Á¶°ÇÀÇ °á°ú¿¡ µû¶ó ¾çÀÚ ÅÃÀÏ ¶Ç´Â ´ÙÀÚ ÅÃÀÏ·Î ÇÁ·Î±×·¥ÀÌ ºÐ±âÇÏ°Ô µÈ´Ù.
-	 * 3. ¿ì¸®°¡ ÀÏ»ó»ýÈ°¿¡¼­ ¼ö ¸¹Àº ¼±ÅÃÀ» ÇÏ´Â °ÍÃ³·³ ÇÁ·Î±×·¥µµ °æ¿ì¿¡ µû¶ó ¼±ÅÃÇÏ°í ºÐ±âÇÏ¿© Èå¸§À» Á¦¾îÇÑ´Ù.
-	 * 4. ´ëÇ¥ÀûÀ¸·Î if¹®(¾çÀÚÅÃÀÏ)°ú switch¹®(´ÙÀÚÅÃÀÏ)ÀÌ ÀÖ´Ù.
+	 * @ ì¡°ê±´ë¬¸(Conditional)
+	 * 1. ì¡°ê±´ë¬¸ì€ ì¡°ê±´ì˜ true/false ê²°ê³¼ì— ë”°ë¼ í”„ë¡œê·¸ëž¨ì˜ íë¦„ì„ ì œì–´í•˜ëŠ” ì½”ë“œë¥¼ ë§í•œë‹¤.
+	 * 2. ì¡°ê±´ì˜ ê²°ê³¼ì— ë”°ë¼ ì–‘ìž íƒì¼ ë˜ëŠ” ë‹¤ìž íƒì¼ë¡œ í”„ë¡œê·¸ëž¨ì´ ë¶„ê¸°í•˜ê²Œ ëœë‹¤.
+	 * 3. ìš°ë¦¬ê°€ ì¼ìƒìƒí™œì—ì„œ ìˆ˜ ë§Žì€ ì„ íƒì„ í•˜ëŠ” ê²ƒì²˜ëŸ¼ í”„ë¡œê·¸ëž¨ë„ ê²½ìš°ì— ë”°ë¼ ì„ íƒí•˜ê³  ë¶„ê¸°í•˜ì—¬ íë¦„ì„ ì œì–´í•œë‹¤.
+	 * 4. ëŒ€í‘œì ìœ¼ë¡œ ifë¬¸(ì–‘ìžíƒì¼)ê³¼ switchë¬¸(ë‹¤ìžíƒì¼)ì´ ìžˆë‹¤.
 	 */
 	public static void main(String[] args) {
 		int num1 = 10;
 		int num2 = 20;
 		
-		// if¹®
+		// ifë¬¸
 		if(num1 < num2) {
-			System.out.println("if : num1Àº num2º¸´Ù ÀÛ½À´Ï´Ù.");
+			System.out.println("if : num1ì€ num2ë³´ë‹¤ ìž‘ìŠµë‹ˆë‹¤.");
 		}
 		
-		// if-else¹®
+		// if-elseë¬¸
 		if(num1 > num2) {
-			System.out.println("if-else : num1Àº num2º¸´Ù ÀÛ½À´Ï´Ù.");
+			System.out.println("if-else : num1ì€ num2ë³´ë‹¤ ìž‘ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("if-else : num1Àº num2º¸´Ù Å©Áö ¾Ê½À´Ï´Ù.");
+			System.out.println("if-else : num1ì€ num2ë³´ë‹¤ í¬ì§€ ì•ŠìŠµë‹ˆë‹¤.");
 		}
 		
-		// if-else-if¹®
+		// if-else-ifë¬¸
 		if(num1 > num2) {
-			System.out.println("if-else-if : num1Àº num2º¸´Ù Å®´Ï´Ù.");
+			System.out.println("if-else-if : num1ì€ num2ë³´ë‹¤ í½ë‹ˆë‹¤.");
 		} else if(num1 < num2){
-			System.out.println("if-else-if : num1Àº num2º¸´Ù ÀÛ½À´Ï´Ù.");
+			System.out.println("if-else-if : num1ì€ num2ë³´ë‹¤ ìž‘ìŠµë‹ˆë‹¤.");
 		}else if(num1 == num2) {
-			System.out.println("if-else-if : num1Àº num2¿Í °°½À´Ï´Ù.");
+			System.out.println("if-else-if : num1ì€ num2ì™€ ê°™ìŠµë‹ˆë‹¤.");
 		}else {
-			System.out.println("if-else-if : num1Àº num2¿Í Å©Áöµµ ÀÛÁöµµ °°Áöµµ ¾Ê½À´Ï´Ù.");
+			System.out.println("if-else-if : num1ì€ num2ì™€ í¬ì§€ë„ ìž‘ì§€ë„ ê°™ì§€ë„ ì•ŠìŠµë‹ˆë‹¤.");
 		}
 		
-		// switch¹®
-		// switch¹®¿¡ ÀÔ·Â°ªÀÌ case¿¡ Á¶°Ç°ú ¸Â´Ù¸é ÇØ´ç caseÀÇ ÄÚµå°¡ ½ÇÇàµÈ´Ù.
-		// break ¹®À» ¸¸³ª¸é switch¹®À» ºüÁ®³ª¿Â´Ù.
-		// default¹®Àº case¿¡ ¸Â´Â ÀÔ·Â°ªÀÌ ¾øÀ» ¶§ ±âº»ÀûÀ¸·Î ½ÇÇàµÈ´Ù.(¿É¼Ç)
-		System.out.println("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä. : ");
+		// switchë¬¸
+		// switchë¬¸ì— ìž…ë ¥ê°’ì´ caseì— ì¡°ê±´ê³¼ ë§žë‹¤ë©´ í•´ë‹¹ caseì˜ ì½”ë“œê°€ ì‹¤í–‰ëœë‹¤.
+		// break ë¬¸ì„ ë§Œë‚˜ë©´ switchë¬¸ì„ ë¹ ì ¸ë‚˜ì˜¨ë‹¤.
+		// defaultë¬¸ì€ caseì— ë§žëŠ” ìž…ë ¥ê°’ì´ ì—†ì„ ë•Œ ê¸°ë³¸ì ìœ¼ë¡œ ì‹¤í–‰ëœë‹¤.(ì˜µì…˜)
+		System.out.println("ì ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”. : ");
 		Scanner scanner = new Scanner(System.in);
 		int score = scanner.nextInt();
 		switch(score) {
 			case 100 :
-			case  90 : System.out.println("¼ö");
+			case  90 : System.out.println("ìˆ˜");
 				break;
-			case 80 : System.out.println("¿ì");
+			case 80 : System.out.println("ìš°");
 				break;
-			case 70 : System.out.println("¹Ì");
+			case 70 : System.out.println("ë¯¸");
 				break;
-			default : System.out.println("´Ù½Ã ½ÃµµÇÏ¼¼¿ä!!!");
+			default : System.out.println("ë‹¤ì‹œ ì‹œë„í•˜ì„¸ìš”!!!");
 				break;
 		}
 		scanner.close();

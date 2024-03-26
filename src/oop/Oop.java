@@ -3,26 +3,26 @@ package oop;
 public class Oop {
 	
 	/**
-	 * @ °´Ã¼ÁöÇâ ÇÁ·Î±×·¡¹Ö(Object Oriented Programming, OOP)
-	 * 1. Çö½Ç ¼¼°èÀÇ °³Ã¼(Object)µéÀ» Ãß»óÈ­ÇÏ¿© ¸ðµ¨¸µÇÏ¿© Å¬·¡½º·Î ¸¸µç´Ù.
-	 * 2. Å¬·¡½º¸¦ ÅëÇØ °´Ã¼(ÀÎ½ºÅÏ½º)¸¦ »ý¼ºÇØ ¸¶Ä¡ ·¹°í³ª ºÎÇ°À» Á¶¸³ÇÏµíÀÌ ÇÁ·Î±×·¡¹ÖÇÏ´Â ±â¹ýÀ» ¸»ÇÑ´Ù.
-	 * 3. °´Ã¼ÁöÇâÀÇ 4´ë Æ¯¼º
-	 * 	1) Ä¸½¶È­(Encapsulation)
-	 *    -> Å¬·¡½ºÀÇ ¼Ó¼º°ú ¼Ó¼ºÀ» Á¦¾îÇÏ´Â ¸Þ¼­µå(getter, setter)¸¦ ÇÏ³ª·Î ¹­¾î ¿ÜºÎ¿¡¼­ Á¢±ÙÇÏ´Â °ÍÀ» Á¦ÇÑÇÏ´Â °ÍÀ» ¸»ÇÑ´Ù.
-	 *    -> µ¥ÀÌÅÍÀÇ ¹«°á¼ºÀ» À¯ÁöÇÒ ¼ö ÀÖ°í ÀÇµµÄ¡ ¾ÊÀº Á¢±ÙÀ¸·Î ºÎÅÍ º¸¾ÈÀÌ °­È­µÉ ¼ö ÀÖ´Ù.
-	 * 	2) »ó¼Ó(Inheritance)
-	 *    -> »óÀ§(ºÎ¸ð)Å¬·¡½ºÀÇ ¼Ó¼º°ú µ¿ÀÛÀ» ÇÏÀ§(ÀÚ½Ä)Å¬·¡½º¿¡°Ô ¹°·ÁÁÖ´Â °ÍÀ» ÀÇ¹ÌÇÑ´Ù.
-	 *    -> extends Å°¿öµå¸¦ ÅëÇØ »ó¼Ó½ÃÅ³ ¼ö ÀÖ°í ÀÚ¹Ù¿¡¼­´Â ´ÙÁß »ó¼ÓÀÌ ºÒ°¡´ÉÇÏ´Ù.(extends, implements´Â È¥¿ë °¡´É)
-	 *    -> ÄÚµåÀÇ Àç»ç¿ë¼ºÀ» ³ôÀÏ ¼ö ÀÖ°í °èÃþÀûÀÎ °ü°è ¶ÇÇÑ Ç¥ÇöÇÒ ¼ö ÀÖ´Ù.
-	 * 	3) Ãß»óÈ­(Polymorphism)
-	 *    -> Ãß»óÈ­´Â °´Ã¼ÀÇ °øÅëµÈ Æ¯¼ºÀ» °­Á¶, ÁýÁßÇÏ¿© ÄÚµåÀÇ º¹Àâ¼ºÀ» ÁÙÀÌ°í ÄÚµåÀÇ ÀÌÇØµµ¿Í À¯Áöº¸¼ö¸¦ À¯¿ëÇÏ°Ô ¸¸µé¾î ÁØ´Ù.
-	 * 	4) ´ÙÇü¼º(Abstraction)
-	 *    -> ´ÙÇü¼ºÀº ¿À¹ö·Îµù, ¿À¹ö¶óÀÌµùÀ» ÅëÇØ °°Àº ÀÌ¸§ÀÇ ¸Þ¼­µå¸íÀ» ÀçÈ°¿ëÇÏ°Å³ª,
-	 *       °°Àº ¸Þ¼­µå¸¦ È£ÃâÇØµµ ¼­·Î ´Ù¸¥ µ¿ÀÛÀ» ¼öÇàÇÒ ¼ö ÀÖµµ·Ï ÇÏ´Â °ÍÀ» ÀÇ¹ÌÇÑ´Ù.
+	 * @ ê°ì²´ì§€í–¥ í”„ë¡œê·¸ëž˜ë°(Object Oriented Programming, OOP)
+	 * 1. í˜„ì‹¤ ì„¸ê³„ì˜ ê°œì²´(Object)ë“¤ì„ ì¶”ìƒí™”í•˜ì—¬ ëª¨ë¸ë§í•˜ì—¬ í´ëž˜ìŠ¤ë¡œ ë§Œë“ ë‹¤.
+	 * 2. í´ëž˜ìŠ¤ë¥¼ í†µí•´ ê°ì²´(ì¸ìŠ¤í„´ìŠ¤)ë¥¼ ìƒì„±í•´ ë§ˆì¹˜ ë ˆê³ ë‚˜ ë¶€í’ˆì„ ì¡°ë¦½í•˜ë“¯ì´ í”„ë¡œê·¸ëž˜ë°í•˜ëŠ” ê¸°ë²•ì„ ë§í•œë‹¤.
+	 * 3. ê°ì²´ì§€í–¥ì˜ 4ëŒ€ íŠ¹ì„±
+	 * 	1) ìº¡ìŠí™”(Encapsulation)
+	 *    -> í´ëž˜ìŠ¤ì˜ ì†ì„±ê³¼ ì†ì„±ì„ ì œì–´í•˜ëŠ” ë©”ì„œë“œ(getter, setter)ë¥¼ í•˜ë‚˜ë¡œ ë¬¶ì–´ ì™¸ë¶€ì—ì„œ ì ‘ê·¼í•˜ëŠ” ê²ƒì„ ì œí•œí•˜ëŠ” ê²ƒì„ ë§í•œë‹¤.
+	 *    -> ë°ì´í„°ì˜ ë¬´ê²°ì„±ì„ ìœ ì§€í•  ìˆ˜ ìžˆê³  ì˜ë„ì¹˜ ì•Šì€ ì ‘ê·¼ìœ¼ë¡œ ë¶€í„° ë³´ì•ˆì´ ê°•í™”ë  ìˆ˜ ìžˆë‹¤.
+	 * 	2) ìƒì†(Inheritance)
+	 *    -> ìƒìœ„(ë¶€ëª¨)í´ëž˜ìŠ¤ì˜ ì†ì„±ê³¼ ë™ìž‘ì„ í•˜ìœ„(ìžì‹)í´ëž˜ìŠ¤ì—ê²Œ ë¬¼ë ¤ì£¼ëŠ” ê²ƒì„ ì˜ë¯¸í•œë‹¤.
+	 *    -> extends í‚¤ì›Œë“œë¥¼ í†µí•´ ìƒì†ì‹œí‚¬ ìˆ˜ ìžˆê³  ìžë°”ì—ì„œëŠ” ë‹¤ì¤‘ ìƒì†ì´ ë¶ˆê°€ëŠ¥í•˜ë‹¤.(extends, implementsëŠ” í˜¼ìš© ê°€ëŠ¥)
+	 *    -> ì½”ë“œì˜ ìž¬ì‚¬ìš©ì„±ì„ ë†’ì¼ ìˆ˜ ìžˆê³  ê³„ì¸µì ì¸ ê´€ê³„ ë˜í•œ í‘œí˜„í•  ìˆ˜ ìžˆë‹¤.
+	 * 	3) ì¶”ìƒí™”(Polymorphism)
+	 *    -> ì¶”ìƒí™”ëŠ” ê°ì²´ì˜ ê³µí†µëœ íŠ¹ì„±ì„ ê°•ì¡°, ì§‘ì¤‘í•˜ì—¬ ì½”ë“œì˜ ë³µìž¡ì„±ì„ ì¤„ì´ê³  ì½”ë“œì˜ ì´í•´ë„ì™€ ìœ ì§€ë³´ìˆ˜ë¥¼ ìœ ìš©í•˜ê²Œ ë§Œë“¤ì–´ ì¤€ë‹¤.
+	 * 	4) ë‹¤í˜•ì„±(Abstraction)
+	 *    -> ë‹¤í˜•ì„±ì€ ì˜¤ë²„ë¡œë”©, ì˜¤ë²„ë¼ì´ë”©ì„ í†µí•´ ê°™ì€ ì´ë¦„ì˜ ë©”ì„œë“œëª…ì„ ìž¬í™œìš©í•˜ê±°ë‚˜,
+	 *       ê°™ì€ ë©”ì„œë“œë¥¼ í˜¸ì¶œí•´ë„ ì„œë¡œ ë‹¤ë¥¸ ë™ìž‘ì„ ìˆ˜í–‰í•  ìˆ˜ ìžˆë„ë¡ í•˜ëŠ” ê²ƒì„ ì˜ë¯¸í•œë‹¤.
 	 */
 	public static void main(String[] args) {
-		// newÅ°¿öµå·Î °´Ã¼ »ý¼º ½Ã °¡Àå ¸ÕÀú »ý¼ºÀÚ ¸Þ¼­µå¸¦ È£Ãâ()
-		// newÅ°¿öµå¸¦ ÅëÇØ »ý¼ºµÈ ÀÎ½ºÅÏ½ºÀÇ ÁÖ¼Ò(Èü)¸¦ ÂüÁ¶º¯¼ö(½ºÅÃ)°¡ ÂüÁ¶ÇÏ°Ô µÈ´Ù.
+		// newí‚¤ì›Œë“œë¡œ ê°ì²´ ìƒì„± ì‹œ ê°€ìž¥ ë¨¼ì € ìƒì„±ìž ë©”ì„œë“œë¥¼ í˜¸ì¶œ()
+		// newí‚¤ì›Œë“œë¥¼ í†µí•´ ìƒì„±ëœ ì¸ìŠ¤í„´ìŠ¤ì˜ ì£¼ì†Œ(íž™)ë¥¼ ì°¸ì¡°ë³€ìˆ˜(ìŠ¤íƒ)ê°€ ì°¸ì¡°í•˜ê²Œ ëœë‹¤.
 		Car grandeur = new Car();
 		grandeur.name = "grandeur";
 		grandeur.color = "black";
@@ -32,33 +32,33 @@ public class Oop {
 		grandeur.stop();
 		grandeur.carInfo();
 		
-		// »ý¼ºÀÚ ¿À¹ö·ÎµùÀ» ÅëÇØ ÀÎ½ºÅÏ½º°¡ »ý¼ºµÉ ¶§ ¸â¹öÇÊµå(¼Ó¼º)À» ÃÊ±âÈ­ÇÒ ¼ö ÀÖ´Ù. 
+		// ìƒì„±ìž ì˜¤ë²„ë¡œë”©ì„ í†µí•´ ì¸ìŠ¤í„´ìŠ¤ê°€ ìƒì„±ë  ë•Œ ë©¤ë²„í•„ë“œ(ì†ì„±)ì„ ì´ˆê¸°í™”í•  ìˆ˜ ìžˆë‹¤. 
 		Car ramborgini = new Car("ramborgini", "red", "auto", 100000);
 		ramborgini.run();
 		ramborgini.stop();
 		ramborgini.carInfo();
 		
-		// °´Ã¼ »ý¼º°ú ÂüÁ¶
-		// granduer¿Í ramborgini °´Ã¼(ÀÎ½ºÅÏ½º)´Â °°Àº Å¬·¡½ºÀÎ Car ÀÚ·áÇüÀÌ´Ù.
-		// °´Ã¼°¡ »ý¼ºµÇ¾úÀ» ¶§ Èü¸Þ¸ð¸®¿¡ »ý¼ºµÇ°í ÀÌ¸¦ ÂüÁ¶º¯¼ö°¡ ÂüÁ¶ÇÏ¿© °´Ã¼¿¡ Á¢±ÙÇÒ ¼ö ÀÖ´Ù.
-		// »ý¼ºµÈ °´Ã¼(ÀÎ½ºÅÏ½º)´Â °¢ °¢ÀÇ ¸Þ¸ð¸® ÁÖ¼Ò¸¦ °¡Áö°í ÀÖ°í ÀÌ µÑÀº ¼­·Î ´Ù¸¥ °´Ã¼ÀÓÀ» ¾Ë ¼ö ÀÖ´Ù.
+		// ê°ì²´ ìƒì„±ê³¼ ì°¸ì¡°
+		// granduerì™€ ramborgini ê°ì²´(ì¸ìŠ¤í„´ìŠ¤)ëŠ” ê°™ì€ í´ëž˜ìŠ¤ì¸ Car ìžë£Œí˜•ì´ë‹¤.
+		// ê°ì²´ê°€ ìƒì„±ë˜ì—ˆì„ ë•Œ íž™ë©”ëª¨ë¦¬ì— ìƒì„±ë˜ê³  ì´ë¥¼ ì°¸ì¡°ë³€ìˆ˜ê°€ ì°¸ì¡°í•˜ì—¬ ê°ì²´ì— ì ‘ê·¼í•  ìˆ˜ ìžˆë‹¤.
+		// ìƒì„±ëœ ê°ì²´(ì¸ìŠ¤í„´ìŠ¤)ëŠ” ê° ê°ì˜ ë©”ëª¨ë¦¬ ì£¼ì†Œë¥¼ ê°€ì§€ê³  ìžˆê³  ì´ ë‘˜ì€ ì„œë¡œ ë‹¤ë¥¸ ê°ì²´ìž„ì„ ì•Œ ìˆ˜ ìžˆë‹¤.
 		System.out.println("====Object Memory Addrees====");
 		System.out.println("car_granduer : " + grandeur);
 		System.out.println("car_ramborgini : " + ramborgini);
 		
-		// °´Ã¼ ºñ±³½Ã == ºñ±³¿¬»êÀÚ´Â µÎ °´Ã¼ÀÇ ÂüÁ¶(ÁÖ¼Ò)¸¦ ºñ±³ÇÑ´Ù.
+		// ê°ì²´ ë¹„êµì‹œ == ë¹„êµì—°ì‚°ìžëŠ” ë‘ ê°ì²´ì˜ ì°¸ì¡°(ì£¼ì†Œ)ë¥¼ ë¹„êµí•œë‹¤.
 		System.out.println("== : " + (grandeur == ramborgini)); // false
-		// equals() ¸Þ¼­µå´Â µÎ °´Ã¼ÀÇ ³»¿ëÀ» ºñ±³ÇÑ´Ù.
+		// equals() ë©”ì„œë“œëŠ” ë‘ ê°ì²´ì˜ ë‚´ìš©ì„ ë¹„êµí•œë‹¤.
 		System.out.println("equals() : " + grandeur.equals(ramborgini)); // false
-		// instanceof() ¸Þ¼­µå´Â µÎ °´Ã¼ÀÇ Å¸ÀÔ(ÀÚ·áÇü)À» ºñ±³ÇÑ´Ù.
+		// instanceof() ë©”ì„œë“œëŠ” ë‘ ê°ì²´ì˜ íƒ€ìž…(ìžë£Œí˜•)ì„ ë¹„êµí•œë‹¤.
 		System.out.println("instanceof() : " + (grandeur instanceof Car)); // true
 		System.out.println("instanceof() : " + (ramborgini instanceof Car)); // true
 		
-		// ÂüÁ¶º¯¼ö¿¡ nullÀÌ ÀúÀåµÇ¸é ÂüÁ¶º¯¼ö¿Í °´Ã¼ÀÇ ÂüÁ¶°¡ ²÷±â°í ´õ ÀÌ»ó °´Ã¼¸¦ ÀÌ¿ëÇÒ ¼ö ¾ø°ÔµÈ´Ù.
-		// nullÀÌ ÀúÀåµÇ¾î ÂüÁ¶°¡ ²÷±â°Ô µÇ¸é GC¿¡ ÀÇÇØ¼­ ¸Þ¸ð¸®(Èü)¿¡¼­ Á¦°ÅµÇ°Ô µÈ´Ù.
+		// ì°¸ì¡°ë³€ìˆ˜ì— nullì´ ì €ìž¥ë˜ë©´ ì°¸ì¡°ë³€ìˆ˜ì™€ ê°ì²´ì˜ ì°¸ì¡°ê°€ ëŠê¸°ê³  ë” ì´ìƒ ê°ì²´ë¥¼ ì´ìš©í•  ìˆ˜ ì—†ê²Œëœë‹¤.
+		// nullì´ ì €ìž¥ë˜ì–´ ì°¸ì¡°ê°€ ëŠê¸°ê²Œ ë˜ë©´ GCì— ì˜í•´ì„œ ë©”ëª¨ë¦¬(íž™)ì—ì„œ ì œê±°ë˜ê²Œ ëœë‹¤.
 		grandeur.carInfo();
 		grandeur = null;
-		//grandeur.carInfo(); NullPointerException ¹ß»ý 
+		//grandeur.carInfo(); NullPointerException ë°œìƒ 
 		
 		
 	}

@@ -4,21 +4,21 @@ package operator;
 public class Operator {
 
 	/**
-	 * @ ¿¬»êÀÚ(Operator)
-	 * 1. ´ÜÇ×¿¬»êÀÚ
-	 *	- ÇÇ¿¬»êÀÚ°¡ ÇÏ³ª¸¸ Á¸Àç
+	 * @ ì—°ì‚°ìž(Operator)
+	 * 1. ë‹¨í•­ì—°ì‚°ìž
+	 *	- í”¼ì—°ì‚°ìžê°€ í•˜ë‚˜ë§Œ ì¡´ìž¬
 	 *	ex ) +x, -x, !x
-	 * 2. ÀÌÇ×¿¬»êÀÚ
-	 * 	- ÇÇ¿¬»êÀÚ°¡ µÎ°³ Á¸Àç
+	 * 2. ì´í•­ì—°ì‚°ìž
+	 * 	- í”¼ì—°ì‚°ìžê°€ ë‘ê°œ ì¡´ìž¬
 	 * 	ex ) x=y, x<y, x!=y
-	 *  3. »ïÇ×¿¬»êÀÚ
-	 * 	- ÇÇ¿¬»êÀÚ°¡ ¼¼°³ Á¸Àç(Á¶°Ç½ÄÀÌ true¶ó¸é true, false¶ó¸é false¸¦ ´ëÀÔ
-	 * 	ex ) [Á¶°Ç½Ä] : [½Ä1] ? [½Ä2]
+	 *  3. ì‚¼í•­ì—°ì‚°ìž
+	 * 	- í”¼ì—°ì‚°ìžê°€ ì„¸ê°œ ì¡´ìž¬(ì¡°ê±´ì‹ì´ trueë¼ë©´ true, falseë¼ë©´ falseë¥¼ ëŒ€ìž…
+	 * 	ex ) [ì¡°ê±´ì‹] : [ì‹1] ? [ì‹2]
 	 */
 	public static void main(String[] args) {
 		
-		// ´ëÀÔ¿¬»êÀÚ =
-		// ¿À¸¥ÂÊÀÇ °ªÀ» ¿ÞÂÊ¿¡ ´ëÀÔÇÏ´Â ¿¬»êÀÚ
+		// ëŒ€ìž…ì—°ì‚°ìž =
+		// ì˜¤ë¥¸ìª½ì˜ ê°’ì„ ì™¼ìª½ì— ëŒ€ìž…í•˜ëŠ” ì—°ì‚°ìž
 		int x = 10; int y = 20;
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
@@ -26,16 +26,16 @@ public class Operator {
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
 		
-		// »ê¼ú¿¬»êÀÚ +, -, *, /, %
+		// ì‚°ìˆ ì—°ì‚°ìž +, -, *, /, %
 		x = 10; y = 20;
-		System.out.println("x + y = " + (x + y)); // µ¡¼À
-		System.out.println("x - y = " + (x - y)); // »¬¼À
-		System.out.println("x * y = " + (x * y)); // °ö¼À
-		System.out.println("x / y = " + (x / y)); // ³ª´°¼À
-		System.out.println("x % y = " + (x % y)); // ³ª¸ÓÁö
+		System.out.println("x + y = " + (x + y)); // ë§ì…ˆ
+		System.out.println("x - y = " + (x - y)); // ëº„ì…ˆ
+		System.out.println("x * y = " + (x * y)); // ê³±ì…ˆ
+		System.out.println("x / y = " + (x / y)); // ë‚˜ëˆ—ì…ˆ
+		System.out.println("x % y = " + (x % y)); // ë‚˜ë¨¸ì§€
 		
-		// º¹ÇÕ ´ëÀÔ¿¬»êÀÚ +=, -=, *=, /=, %=
-		// ´ëÀÔ¿¬»êÀÚ¿Í »ê¼ú¿¬»êÀÚ¸¦ °áÇÕÇÏ¿© »ç¿ëÇÒ ¼ö ÀÖ´Ù.
+		// ë³µí•© ëŒ€ìž…ì—°ì‚°ìž +=, -=, *=, /=, %=
+		// ëŒ€ìž…ì—°ì‚°ìžì™€ ì‚°ìˆ ì—°ì‚°ìžë¥¼ ê²°í•©í•˜ì—¬ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
 		x = 10;
 		System.out.println("x += 10 : " + (x += 10));
 		System.out.println("x -= 10 : " + (x -= 10));
@@ -43,72 +43,72 @@ public class Operator {
 		System.out.println("x /= 10 : " + (x /= 10));
 		System.out.println("x %= 10 : " + (x %= 10));
 		
-		// °ü°è¿¬»êÀÚ >, <, >=, <=, ==, !=
-		// ÇÇ¿¬»êÀÚ¸¦ ºñ±³ÇÏ¿© °á°ú¸¦ true/false·Î ¸®ÅÏÇÑ´Ù.
+		// ê´€ê³„ì—°ì‚°ìž >, <, >=, <=, ==, !=
+		// í”¼ì—°ì‚°ìžë¥¼ ë¹„êµí•˜ì—¬ ê²°ê³¼ë¥¼ true/falseë¡œ ë¦¬í„´í•œë‹¤.
 		x = 10; y = 20;
-		System.out.println("x > y : " + (x > y)); // x°¡ yº¸´Ù Å©´Ù
-		System.out.println("x > y : " + (x < y)); // x°¡ yº¸´Ù ÀÛ´Ù
-		System.out.println("x > y : " + (x >= y)); // x°¡ yº¸´Ù Å©°Å³ª °°´Ù
-		System.out.println("x > y : " + (x <= y)); // x°¡ yº¸´Ù ÀÛ°Å³ª °°´Ù
-		System.out.println("x > y : " + (x == y)); // x°¡ y¿Í °°´Ù
-		System.out.println("x > y : " + (x != y)); // x°¡ y¿Í °°Áö ¾Ê´Ù.
+		System.out.println("x > y : " + (x > y)); // xê°€ yë³´ë‹¤ í¬ë‹¤
+		System.out.println("x > y : " + (x < y)); // xê°€ yë³´ë‹¤ ìž‘ë‹¤
+		System.out.println("x > y : " + (x >= y)); // xê°€ yë³´ë‹¤ í¬ê±°ë‚˜ ê°™ë‹¤
+		System.out.println("x > y : " + (x <= y)); // xê°€ yë³´ë‹¤ ìž‘ê±°ë‚˜ ê°™ë‹¤
+		System.out.println("x > y : " + (x == y)); // xê°€ yì™€ ê°™ë‹¤
+		System.out.println("x > y : " + (x != y)); // xê°€ yì™€ ê°™ì§€ ì•Šë‹¤.
 		
-		// ³í¸®¿¬»êÀÚ &&(AND), ||(OR), !(NOT)
-		// ÇÇ¿¬»êÀÚÀÇ ³í¸® ¿¬»êÀ» ¼öÇàÇÏ°í °á°ú°ªÀ» true/false·Î ¸®ÅÏÇÑ´Ù.
+		// ë…¼ë¦¬ì—°ì‚°ìž &&(AND), ||(OR), !(NOT)
+		// í”¼ì—°ì‚°ìžì˜ ë…¼ë¦¬ ì—°ì‚°ì„ ìˆ˜í–‰í•˜ê³  ê²°ê³¼ê°’ì„ true/falseë¡œ ë¦¬í„´í•œë‹¤.
 		boolean b1 = false;
 		boolean b2 = true;
-		System.out.println("b1 && b2 : " + (b1 && b2)); // ³í¸®°ö(AND) : ÇÇ¿¬»êÀÚ ¸ðµÎ trueÀÏ ¶§¸¸ true
-		System.out.println("b1 || b2 : " + (b1 || b2)); // ³í¸®ÇÕ(OR) : ÇÇ¿¬»êÀÚ Áß ÇÏ³ª¶óµµ trueÀÌ¸é true
-		System.out.println("!b1 : " + !b1); // ºÎÁ¤(NOT) : true¿Í false¸¦ ¹ÝÀü ½ÃÅ²´Ù.(´ÜÇ×¿¬»êÀÚ)
+		System.out.println("b1 && b2 : " + (b1 && b2)); // ë…¼ë¦¬ê³±(AND) : í”¼ì—°ì‚°ìž ëª¨ë‘ trueì¼ ë•Œë§Œ true
+		System.out.println("b1 || b2 : " + (b1 || b2)); // ë…¼ë¦¬í•©(OR) : í”¼ì—°ì‚°ìž ì¤‘ í•˜ë‚˜ë¼ë„ trueì´ë©´ true
+		System.out.println("!b1 : " + !b1); // ë¶€ì •(NOT) : trueì™€ falseë¥¼ ë°˜ì „ ì‹œí‚¨ë‹¤.(ë‹¨í•­ì—°ì‚°ìž)
 		System.out.println("!b2 : " + !b2);
-		// ¼îÆ®¼­Å¶(Short Circuit)
-		// ¼îÆ® ¼­Å¶Àº ³í¸® ¿¬»ê °úÁ¤ Áß ÇÊ¿ä ¾ø´Â ¿¬»ê°úÁ¤Àº ¿¬»êÇÏÁö ¾Ê´Â °ÍÀ» ÀÇ¹ÌÇÑ´Ù.
-		// ¸¸¾à ³í¸®ÇÕ¿¬»ê¿¡¼­ (b1 || b2) ÀÏ ¶§ b1ÀÌ Âü(true)¶ó¸é b2ÀÇ ¿¬»êÀº ¼öÇàÇÏÁö ¾Ê´Â´Ù.
-		// CPU´Â ºÒÇÊ¿äÇÑ ¿¬»êÀ» ¼öÇàÇÒ ÇÊ¿ä°¡ ¾ø´Ù.
-		// ³í¸®½ÄÀ» ±¸¼ºÇÒ ¶§ ¼îÆ®¼­Å¶À» »ý°¢ÇÏ¿© °¡´É¼ºÀÌ ³ôÀº ³í¸® ¿¬»ê°úÁ¤À» ¾ÕÂÊ¿¡ µÎ´Â °ÍÀÌ ÁÁ´Ù.
+		// ì‡¼íŠ¸ì„œí‚·(Short Circuit)
+		// ì‡¼íŠ¸ ì„œí‚·ì€ ë…¼ë¦¬ ì—°ì‚° ê³¼ì • ì¤‘ í•„ìš” ì—†ëŠ” ì—°ì‚°ê³¼ì •ì€ ì—°ì‚°í•˜ì§€ ì•ŠëŠ” ê²ƒì„ ì˜ë¯¸í•œë‹¤.
+		// ë§Œì•½ ë…¼ë¦¬í•©ì—°ì‚°ì—ì„œ (b1 || b2) ì¼ ë•Œ b1ì´ ì°¸(true)ë¼ë©´ b2ì˜ ì—°ì‚°ì€ ìˆ˜í–‰í•˜ì§€ ì•ŠëŠ”ë‹¤.
+		// CPUëŠ” ë¶ˆí•„ìš”í•œ ì—°ì‚°ì„ ìˆ˜í–‰í•  í•„ìš”ê°€ ì—†ë‹¤.
+		// ë…¼ë¦¬ì‹ì„ êµ¬ì„±í•  ë•Œ ì‡¼íŠ¸ì„œí‚·ì„ ìƒê°í•˜ì—¬ ê°€ëŠ¥ì„±ì´ ë†’ì€ ë…¼ë¦¬ ì—°ì‚°ê³¼ì •ì„ ì•žìª½ì— ë‘ëŠ” ê²ƒì´ ì¢‹ë‹¤.
 		
-		// Áõ°¨¿¬»êÀÚ
+		// ì¦ê°ì—°ì‚°ìž
 		x = 10;
-		System.out.println("++x : " + (++x)); //¼± Áõ°¡, ÈÄ ¿¬»ê
+		System.out.println("++x : " + (++x)); //ì„  ì¦ê°€, í›„ ì—°ì‚°
 		x = 10;
-		System.out.println("--x : " + (--x)); // ¼± °¨¼Ò, ÈÄ ¿¬»ê
+		System.out.println("--x : " + (--x)); // ì„  ê°ì†Œ, í›„ ì—°ì‚°
 		x = 10;
-		System.out.println("x++ : " + (x++)); // ¼± ¿¬»ê, ÈÄ Áõ°¡
+		System.out.println("x++ : " + (x++)); // ì„  ì—°ì‚°, í›„ ì¦ê°€
 		System.out.println("x : " + (x));
 		x = 10;
-		System.out.println("x-- : " + (x--)); // ¼± ¿¬»ê, ÈÄ °¨¼Ò
+		System.out.println("x-- : " + (x--)); // ì„  ì—°ì‚°, í›„ ê°ì†Œ
 		System.out.println("x : " + (x));
 		
-		// »ïÇ×¿¬»êÀÚ [Á¶°Ç½Ä] ? [½Ä1] : [½Ä2]
-		// Á¶°Ç½ÄÀÌ ÂüÀÌ¸é [½Ä1]ÀÌ ½ÇÇàµÇ°í, °ÅÁþÀÌ¶ó¸é [½Ä2]°¡ ½ÇÇàµÈ´Ù.
+		// ì‚¼í•­ì—°ì‚°ìž [ì¡°ê±´ì‹] ? [ì‹1] : [ì‹2]
+		// ì¡°ê±´ì‹ì´ ì°¸ì´ë©´ [ì‹1]ì´ ì‹¤í–‰ë˜ê³ , ê±°ì§“ì´ë¼ë©´ [ì‹2]ê°€ ì‹¤í–‰ëœë‹¤.
 		x = 10; y = 20;
 		int result = 0;
 		result = (x > y) ? 100 : 200;
-		System.out.println("result : " + result); // x°¡ yº¸´Ù Å©Áö ¾Ê±â ¶§¹®¿¡ false -> [½Ä2]°¡ ½ÇÇàµÈ´Ù.
+		System.out.println("result : " + result); // xê°€ yë³´ë‹¤ í¬ì§€ ì•Šê¸° ë•Œë¬¸ì— false -> [ì‹2]ê°€ ì‹¤í–‰ëœë‹¤.
 		result = (x < y) ? 100 : 200;
-		System.out.println("result : " + result); // x°¡ yº¸´Ù ÀÛ±â ¶§¹®¿¡ true -> [½Ä1]ÀÌ ½ÇÇàµÈ´Ù.
-		// »ïÇ×¿¬»êÀÚ´Â À§ÀÇ ¿¹Á¦Ã³·³ ´ëÀÔ¿¬»êÀÚ¿Í ÇÔ²² »ç¿ëµÉ ¼ö ÀÖ´Ù.
+		System.out.println("result : " + result); // xê°€ yë³´ë‹¤ ìž‘ê¸° ë•Œë¬¸ì— true -> [ì‹1]ì´ ì‹¤í–‰ëœë‹¤.
+		// ì‚¼í•­ì—°ì‚°ìžëŠ” ìœ„ì˜ ì˜ˆì œì²˜ëŸ¼ ëŒ€ìž…ì—°ì‚°ìžì™€ í•¨ê»˜ ì‚¬ìš©ë  ìˆ˜ ìžˆë‹¤.
 		
-		// ºñÆ®¿¬»êÀÚ &, |, ^
-		// µ¥ÀÌÅÍ¸¦ ºñÆ®(bit)´ÜÀ§·Î È¯»êÇÏ¿© ¿¬»êÀ» ¼öÇà, ´Ù¸¥ ¿¬»êÀÚ¿¡ ºñÇØ ¿¬»ê ¼Óµµ°¡ Çâ»óµÈ´Ù.
+		// ë¹„íŠ¸ì—°ì‚°ìž &, |, ^
+		// ë°ì´í„°ë¥¼ ë¹„íŠ¸(bit)ë‹¨ìœ„ë¡œ í™˜ì‚°í•˜ì—¬ ì—°ì‚°ì„ ìˆ˜í–‰, ë‹¤ë¥¸ ì—°ì‚°ìžì— ë¹„í•´ ì—°ì‚° ì†ë„ê°€ í–¥ìƒëœë‹¤.
 		x = 2; // 0000 0010 
 		y = 3; // 0000 0011
 	
-		//	AND ¿¬»êÀÚ : x¿Í y°¡ ¸ðµÎ 1ÀÌ¸é 1
+		//	AND ì—°ì‚°ìž : xì™€ yê°€ ëª¨ë‘ 1ì´ë©´ 1
 		//	0000 0010
 		//	0000 0011
 		//	---------
 		//	0000 0010 (2)
 		System.out.println("x & y : " + (x & y)); 
 		
-		//	OR ¿¬»êÀÚ : x¿Í yÁß ÇÏ³ª¶óµµ 1ÀÌ¸é 1
+		//	OR ì—°ì‚°ìž : xì™€ yì¤‘ í•˜ë‚˜ë¼ë„ 1ì´ë©´ 1
 		//	0000 0010
 		//	0000 0011
 		//	---------
 		//	0000 0011 (3)
 		System.out.println("x | y : " + (x | y));
 		
-		//	XOR ¿¬»êÀÚ : x¿Í y°¡ °°À¸¸é 0, ´Ù¸£¸é 1
+		//	XOR ì—°ì‚°ìž : xì™€ yê°€ ê°™ìœ¼ë©´ 0, ë‹¤ë¥´ë©´ 1
 		//	0000 0010
 		//	0000 0011
 		//	---------

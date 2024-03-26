@@ -2,13 +2,13 @@ package statics;
 
 
 	/**
-	 * @ static º¯¼ö
-	 * 1. static º¯¼ö´Â ¸ðµç °´Ã¼°¡ µ¿ÀÏÇÑ °´Ã¼ Á¤º¸¸¦ °øÀ¯ÇÏ±â À§ÇÑ °øÀ¯ º¯¼öÀÌ´Ù.(°øµ¿ÀúÀåÃ¢°í)
-	 * 2. °øÀ¯º¯¼ö, Á¤Àûº¯¼ö, Å¬·¡½ºº¯¼ö·Î ºÒ¸°´Ù.
-	 * 3. static º¯¼ö¿¡ Á¢±ÙÇÒ ¶§´Â Class¸í.º¯¼ö¸íÀ¸·Î Á¢±ÙÇÒ ¼ö ÀÖ´Ù.
-	 * 4. thisÅ°¿öµå´Â »ç¿ëÇÒ ¼ö ¾ø´Ù.
-	 * 5. static Å°¿öµå°¡ ºÙ¿©Áø º¯¼ö³ª ¸Þ¼­µå´Â ÄÄÆÄÀÏ½Ã Static Area¿¡ ¸ÕÀú ¸Þ¸ð¸®¸¦ ÇÒ´ç¹Þ°Ô µÈ´Ù.
-	 * 6. ÀÚ¹ÙAPI¿¡¼­ Á¦°øµÇ´Â Math.[¸Þ¼­µå]ÀÇ ¸Þ¼­µå³ª System.out.[¸Þ¼­µå] µîµµ ½ºÅÂÆ½ º¯¼ö¿Í ¸Þ¼­µåÀÌ´Ù.
+	 * @ static ë³€ìˆ˜
+	 * 1. static ë³€ìˆ˜ëŠ” ëª¨ë“  ê°ì²´ê°€ ë™ì¼í•œ ê°ì²´ ì •ë³´ë¥¼ ê³µìœ í•˜ê¸° ìœ„í•œ ê³µìœ  ë³€ìˆ˜ì´ë‹¤.(ê³µë™ì €ìž¥ì°½ê³ )
+	 * 2. ê³µìœ ë³€ìˆ˜, ì •ì ë³€ìˆ˜, í´ëž˜ìŠ¤ë³€ìˆ˜ë¡œ ë¶ˆë¦°ë‹¤.
+	 * 3. static ë³€ìˆ˜ì— ì ‘ê·¼í•  ë•ŒëŠ” Classëª….ë³€ìˆ˜ëª…ìœ¼ë¡œ ì ‘ê·¼í•  ìˆ˜ ìžˆë‹¤.
+	 * 4. thisí‚¤ì›Œë“œëŠ” ì‚¬ìš©í•  ìˆ˜ ì—†ë‹¤.
+	 * 5. static í‚¤ì›Œë“œê°€ ë¶™ì—¬ì§„ ë³€ìˆ˜ë‚˜ ë©”ì„œë“œëŠ” ì»´íŒŒì¼ì‹œ Static Areaì— ë¨¼ì € ë©”ëª¨ë¦¬ë¥¼ í• ë‹¹ë°›ê²Œ ëœë‹¤.
+	 * 6. ìžë°”APIì—ì„œ ì œê³µë˜ëŠ” Math.[ë©”ì„œë“œ]ì˜ ë©”ì„œë“œë‚˜ System.out.[ë©”ì„œë“œ] ë“±ë„ ìŠ¤íƒœí‹± ë³€ìˆ˜ì™€ ë©”ì„œë“œì´ë‹¤.
 	 */
 public class StaticBank {
 	
@@ -20,7 +20,7 @@ public class StaticBank {
 	}
 	
 	public void saveMoney(int money) {
-		// static º¯¼ö¿¡´Â this Å°¿öµå »ç¿ë ºÒ°¡´É
+		// static ë³€ìˆ˜ì—ëŠ” this í‚¤ì›Œë“œ ì‚¬ìš© ë¶ˆê°€ëŠ¥
 		amount += money;
 		System.out.println("amount : " + amount);
 	}
