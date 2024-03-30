@@ -2,6 +2,9 @@ package inheritance;
 
 /**
  * @ 상속(Inheritance)
+ * ※ Java에서 모든 클래스의 최상위 클래스는 항상 Object 클래스이다.
+ * ※ extends 키워드를 붙여주지 않아도 모든 클래스는 Object 클래스를 상속받고 있다.
+ * ※ super 키워드는 상속받은 상위클래스를 가르키는 키워드이다.
  * 1. 하위클래스에 extends 키워드를 사용해서 상속을 구현할 수 있다.
  * 2. Java에서는 다중 상속을 지원하지 않는다.
  * 		-> 다중 상속을 지원하는 언어도 있으나 다중 상속 시 다이아몬드 구조 문제가 발생할 수 있다.
@@ -29,6 +32,12 @@ public class Inheritance {
 		
 		// 상속을 해도 private 접근제어자에는 참조가 불가능하다.
 		// child.privateFun();
+		
+		// @Override(재정의) 되지 않았다면 상위클래스의 makeJjajang()가 호출된다.
+		// child.makeJjajang();
+		// ==makeJjajang() START==
+		
+		child.makeJjajang(); // <--  @Override(재정의)된 makeJjajng() 호출 : ==more makeJjajang() START==
 
 	}
 

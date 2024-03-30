@@ -13,4 +13,9 @@ public class ParentClass {
 	private void privateFun() {
 		System.out.println("==privateFun() START==");
 	}
+	
+	public void makeJjajang() {
+		System.out.println("==makeJjajang() START==");
+		
+	}
 }
